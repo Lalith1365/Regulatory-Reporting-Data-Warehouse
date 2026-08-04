@@ -47,6 +47,29 @@ Core Banking System
  Dashboard
 
 ⚙ Technologies
+### Technologies Used
+
+- 🐍 Python
+- ⚡ Apache Spark (PySpark)
+- 🗄️ Spark SQL
+- 🔺 Delta Lake
+- 🧱 Databricks
+- 🌿 Git
+- 📂 GitHub
+
+  ## ✨ Core Concepts Demonstrated
+
+- ETL Pipeline Development
+- Medallion Architecture
+- Delta Lake Tables
+- Data Validation
+- Quarantine Handling
+- AML Risk Classification
+- Suspicious Transaction Detection
+- Incremental Data Loading
+- Delta Lake MERGE (UPSERT)
+- Regulatory Reporting
+- Data Quality Monitoring
 
 📂 Project Workflow
 
