@@ -137,7 +137,23 @@ Generated analytics-ready tables:
 - Customer Summary
 - Data Quality Metrics
 
-📊 Results
+## 📊 Results
+
+The project successfully demonstrates an end-to-end regulatory reporting data warehouse using the Medallion Architecture.
+
+### Achievements
+
+- ✅ Built a complete **Bronze → Silver → Gold** data pipeline using Databricks and Delta Lake.
+- ✅ Ingested and processed simulated core banking transaction data.
+- ✅ Implemented data quality validation with quarantine handling for invalid records.
+- ✅ Enriched transactions with **AML risk classification** based on counterparty country.
+- ✅ Flagged **large-value** and **suspicious** transactions using business rules.
+- ✅ Implemented **incremental data loading** and **Delta Lake MERGE (UPSERT)** operations.
+- ✅ Generated Gold-layer business tables for:
+  - Regulatory Reporting
+  - Customer Summary
+  - Data Quality Metrics
+- ✅ Produced analytics-ready datasets for dashboards and reporting.
 
 📷 Screenshots
 
