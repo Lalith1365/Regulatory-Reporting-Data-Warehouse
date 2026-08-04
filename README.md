@@ -199,3 +199,14 @@ The project successfully demonstrates an end-to-end regulatory reporting data wa
 - Machine learning-based fraud and AML detection.
 - Interactive Power BI dashboards.
 - Production deployment on AWS or Azure.
+
+
+## 👨‍💻 Author
+
+**Lalith Bachina**
+
+- 🎓 B.Tech in Computer Science & Engineering
+- 💼 Aspiring Data Engineer
+- 📧 Email: bachinalalith87@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/lalith-bachina-740442250/
+- 💻 GitHub: https://github.com/Lalith1365
