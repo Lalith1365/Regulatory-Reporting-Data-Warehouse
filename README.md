@@ -70,7 +70,51 @@ Core Banking System
 - Regulatory Reporting
 - Data Quality Monitoring
 
-📂 Project Workflow
+## 📂 Project Workflow
+
+The project follows the **Medallion Architecture (Bronze → Silver → Gold)** to process core banking transactions.
+
+### Step 1: Data Ingestion (Bronze Layer)
+- Simulated raw banking transaction data using PySpark.
+- Stored raw records in a Delta table without modifications.
+- Preserved all incoming data for traceability and auditing.
+
+⬇️
+
+### Step 2: Data Validation & Cleansing (Silver Layer)
+- Read transactions from the Bronze layer.
+- Validated mandatory fields (e.g., Account ID and Transaction Amount).
+- Moved invalid or corrupted records to a Quarantine table.
+- Cast data types and standardized timestamps.
+
+⬇️
+
+### Step 3: Data Enrichment
+- Classified transactions into **HIGH** or **LOW** AML risk tiers based on counterparty country.
+- Flagged transactions greater than or equal to **$1,000,000**.
+- Detected suspicious transactions using business rules.
+
+⬇️
+
+### Step 4: Incremental Processing
+- Simulated arrival of new banking transactions.
+- Appended new data to the Bronze layer.
+- Processed only new records.
+- Used **Delta Lake MERGE (UPSERT)** to update the Silver layer efficiently.
+
+⬇️
+
+### Step 5: Gold Layer Reporting
+Generated business-ready reporting tables:
+
+- 📊 Regulatory Reporting
+- 👤 Customer Summary
+- ✅ Data Quality Metrics
+
+⬇️
+
+### Step 6: Analytics
+The Gold layer serves as the source for dashboards and business reporting.
 
 🥉 Bronze Layer
 
