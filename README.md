@@ -116,11 +116,26 @@ Generated business-ready reporting tables:
 ### Step 6: Analytics
 The Gold layer serves as the source for dashboards and business reporting.
 
-🥉 Bronze Layer
+## 🥉 Bronze Layer
 
-🥈 Silver Layer
+- Ingested raw core banking transactions into a Delta table.
+- Preserved original data without transformations.
+- Served as the source for downstream processing.
 
-🥇 Gold Layer
+## 🥈 Silver Layer
+
+- Validated mandatory fields.
+- Quarantined invalid records.
+- Added AML risk classification.
+- Flagged large and suspicious transactions.
+
+## 🥇 Gold Layer
+
+Generated analytics-ready tables:
+
+- Regulatory Reporting
+- Customer Summary
+- Data Quality Metrics
 
 📊 Results
 
