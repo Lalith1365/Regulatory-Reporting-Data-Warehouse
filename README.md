@@ -155,6 +155,47 @@ The project successfully demonstrates an end-to-end regulatory reporting data wa
   - Data Quality Metrics
 - ✅ Produced analytics-ready datasets for dashboards and reporting.
 
-📷 Screenshots
+## 📷 Screenshots
 
-🚀 Future Improvements
+### Bronze Layer
+
+![Bronze Layer](screenshots/bronze_layer.png)
+
+<img width="1787" height="612" alt="bronze_layer1" src="https://github.com/user-attachments/assets/40bbe2cf-9ec1-4ef1-8062-0e73fa6540b5" />
+
+
+### Silver Layer
+
+![Silver Layer](screenshots/silver_layer.png)
+
+<img width="2036" height="549" alt="silver_layer2" src="https://github.com/user-attachments/assets/79ce07f6-f8cf-42f7-870c-dfd44e1a91e5" />
+
+
+### Gold Regulatory Reporting
+
+![Gold Regulatory Reporting](screenshots/gold_reporting.png)
+
+<img width="2014" height="419" alt="gold_reporting3" src="https://github.com/user-attachments/assets/3160f238-84b3-4f5e-9038-35a345bf498a" />
+
+
+### Customer Summary
+
+![Customer Summary](screenshots/customer_summary.png)
+
+<img width="2036" height="385" alt="customer_summary4" src="https://github.com/user-attachments/assets/b165dd83-418c-47d2-8e6b-d16a0dc0ee12" />
+
+
+### Data Quality Metrics
+
+![Data Quality Metrics](screenshots/data_quality_metrics.png)
+
+<img width="619" height="390" alt="data_quality_metrics5" src="https://github.com/user-attachments/assets/40960182-66ee-4018-b521-ce514188a61c" />
+
+
+## 🚀 Future Enhancements
+
+- Real-time transaction processing with Apache Kafka.
+- Pipeline orchestration using Apache Airflow or Databricks Workflows.
+- Machine learning-based fraud and AML detection.
+- Interactive Power BI dashboards.
+- Production deployment on AWS or Azure.
