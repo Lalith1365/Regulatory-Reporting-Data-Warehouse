@@ -24,6 +24,9 @@ The pipeline ingests raw banking transactions, validates and cleans the data, qu
 - 🥇 Gold Layer for regulatory reporting, customer summaries, and data quality metrics
 - 📊 Analytics-ready tables for dashboards and reporting
 
+## 🏗️ Architecture
+
+![Architecture](architecture/architecture.png)
 🏗 Architecture
 Core Banking System
         │
