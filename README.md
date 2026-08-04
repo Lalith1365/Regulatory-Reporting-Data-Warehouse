@@ -27,27 +27,6 @@ The pipeline ingests raw banking transactions, validates and cleans the data, qu
 ## 🏗️ Architecture
 
 ![Architecture](architecture/architecture.png)
-🏗 Architecture
-Core Banking System
-        │
-        ▼
- Bronze Layer
-        │
-        ▼
- Silver Layer
- ├── Validation
- ├── AML
- ├── Large Transactions
- ├── Suspicious Transactions
-        │
-        ▼
- Gold Layer
- ├── Reporting
- ├── Customer Summary
- └── Metrics
-        │
-        ▼
- Dashboard
 
 ### Technologies Used
 
