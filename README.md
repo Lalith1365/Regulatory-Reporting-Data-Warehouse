@@ -46,7 +46,6 @@ Core Banking System
         ▼
  Dashboard
 
-⚙ Technologies
 ### Technologies Used
 
 - 🐍 Python
@@ -57,7 +56,7 @@ Core Banking System
 - 🌿 Git
 - 📂 GitHub
 
-  ## ✨ Core Concepts Demonstrated
+## ✨ Core Concepts Demonstrated
 
 - ETL Pipeline Development
 - Medallion Architecture
